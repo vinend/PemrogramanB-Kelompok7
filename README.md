@@ -138,94 +138,6 @@ g++ -o main Drone.cpp -std=c++11
 
 </details>
 
-## 🚀 Cara Penggunaan
-
-<details open>
-<summary><b>1️⃣ Generate Data Sintetis</b></summary>
-
-```bash
-# Di Linux/MacOS
-./generate_data
-
-# Di Windows
-.\generate_data.exe
-```
-
-Program akan melakukan langkah-langkah berikut:
-1. Meminta jumlah set data yang ingin dihasilkan
-2. Menghasilkan parameter acak dengan rentang yang ditentukan
-3. Menyimpan data dalam file `synthetic_data.txt`
-
-<img src="https://via.placeholder.com/600x100" alt="Generate Data Process">
-
-</details>
-
-<details open>
-<summary><b>2️⃣ Jalankan Optimasi</b></summary>
-
-```bash
-# Di Linux/MacOS
-./main
-
-# Di Windows
-.\main.exe
-```
-
-Program akan membaca data dari `synthetic_data.txt` dan menampilkan hasil optimasi dalam bentuk tabel.
-
-<img src="https://via.placeholder.com/600x150" alt="Main Program Output">
-
-</details>
-
-<details>
-<summary><b>📄 Format Data Input</b></summary>
-
-Setiap baris dalam `synthetic_data.txt` berisi:
-```
-c1 c2 v0_initial epsilon max_iterations
-```
-
-Contoh:
-```
-0.26381 287.17778 6.10830 0.00001 100
-0.11090 332.90108 7.66800 0.00001 100
-```
-
-<table>
-<tr>
-  <th>Parameter</th>
-  <th>Deskripsi</th>
-  <th>Rentang Nilai</th>
-</tr>
-<tr>
-  <td><code>c1</code></td>
-  <td>Koefisien gaya hambat parasitik</td>
-  <td>0.01 - 1.0</td>
-</tr>
-<tr>
-  <td><code>c2</code></td>
-  <td>Koefisien gaya hambat terinduksi</td>
-  <td>50 - 500</td>
-</tr>
-<tr>
-  <td><code>v0_initial</code></td>
-  <td>Tebakan awal kecepatan</td>
-  <td>1.0 - 10.0</td>
-</tr>
-<tr>
-  <td><code>epsilon</code></td>
-  <td>Toleransi konvergensi</td>
-  <td>Biasanya 10⁻⁵</td>
-</tr>
-<tr>
-  <td><code>max_iterations</code></td>
-  <td>Jumlah maksimum iterasi</td>
-  <td>Biasanya 100</td>
-</tr>
-</table>
-
-</details>
-
 ## ⚙️ Parameter Input
 
 - **c₁**: Koefisien gaya hambat parasitik (> 0)
@@ -317,26 +229,6 @@ Program menghasilkan visualisasi komprehensif untuk analisis performa:
 </div>
 
 > **💡 Insight**: Dari visualisasi di atas, dapat disimpulkan bahwa metode Newton-Raphson sangat efektif untuk menyelesaikan masalah optimasi kecepatan drone, dengan konvergensi cepat (rata-rata 5-6 iterasi) dan akurasi tinggi (error < 0.001%).
-
-## ❓ Troubleshooting
-
-### ❌ Error: File tidak ditemukan
-```bash
-Error: Tidak dapat membuka file input: synthetic_data.txt
-```
-**Solusi**: Jalankan `./generate_data` terlebih dahulu.
-
-### ❌ Error: Parsing data
-```bash
-Error parsing baris ke-X
-```
-**Solusi**: Periksa format data dalam `synthetic_data.txt`.
-
-### ⚠️ Non-convergence
-Jika program tidak konvergen:
-- Periksa tebakan awal v₀
-- Pastikan c₁, c₂ > 0
-- Pertimbangkan menambah max_iterations
 
 ## 🔗 Links
 
