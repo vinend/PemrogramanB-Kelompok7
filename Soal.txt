@@ -1,0 +1,51 @@
+Tugas Pemrograman B
+Sifat tugas: Kelompok, 4-5 orang mahasiswa.
+Daftarkan nomor kelompok di:
+https://docs.google.com/spreadsheets/d/1YzWBrJ0J7pq57xbgDp1jcWw8UyNbAdT36XF_tDfxU68/edit?gid=644943953#gid=644943953
+Batas waktu pengumpulan Emas: Jum’at, 30 Mei 2025, pukul 23.59 WIB
+Ketentuan Tugas Pemrograman B:
+Carilah studi kasus yang menerapkan salah satu metode numerik dari buku Chapman di part 6 dan 7.
+Metode numerik yang dipilih harus berbeda dengan metode studi kasus pilihan UAS.
+Buatlah aplikasi pemrograman untuk kasus tersebut dalam Bahasa C/C++.
+Luaran Tugas Pemrograman B:
+1) Laporan tertulis PDF dikumpulkan ke EMAS.
+2) Link Github repositori, link dicantumkan di laporan.
+Pastikan link Github di dalam laporan dapat diakses dan akurat. Apabila link tidak lengkap atau tidak dapat
+diakses, nilai akhir tugas pemrograman B akan dikurangi 40%.
+Ketentuan laporan tertulis:
+1) Buat laporan yang menjelaskan aplikasi metode numerik dengan struktur sebagai berikut:
+▪ Abstrak
+▪ Pendahuluan
+▪ Studi Literatur
+▪ Penjelasan Data Yang Digunakan
+▪ Penjelasan Metode Yang Digunakan
+▪ Diskusi dan Analisa Hasil Experimen
+▪ Kesimpulan
+▪ Link Github
+▪ Referensi
+2) Laporan maksimal 5 halaman PDF, menggunakan salah satu template Overleaf atau Word:
+▪ Overleaf: https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn
+▪ Word: https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-templatea4.docx
+3) Nama file TugasPemrogramanA_Kelompok_[nomor kelompok].pdf
+4) Setiap anggota kelompok submit ke Emas dengan laporan yang sama.
+5) Penulisan laporan diperbolehkan menggunakan Bahasa Indonesia atau Bahasa Inggris.
+Ketentuan Link Github:
+1) Link berupa repositori Github yang dapat diakses secara publik
+2) Sertakan informasi berikut di dalam file Readme.md.
+▪ Nomor Kelompok
+▪ Judul/nama program sesuai dengan fungsi/metode yang dilakukan.
+▪ Daftar anggota kelompok berupa Nama lengkap dan NPM
+▪ Deskripsi penjelasan mengenai program yang dibuat.
+3) Program source code C/C++ dilengkapi dengan komentar / dokumentasi program yang menjelaskan setiap
+proses.
+4) Informasi di dalam Github repositori diperbolehkan menggunakan Bahasa Indonesia atau Bahasa Inggris.
+Kriteria penilaian
+Kriteria Bobot
+A. Laporan 1. Kualitas dan kelengkapan laporan 30 %
+2. Disertai dengan persamaan (equations) yang sesuai 10 %
+3. Disertai visualisasi/plot/gambar dan tabel yang relevan 20 %
+4. Kerapian laporan 5 %
+B. Pemrograman 1. Program mengimplementasikan metode yang sesuai 20 %
+2. Program disertai dokumentasi / komentar 10 %
+3. Kerapian dan kelengkapan Github repository 5 %
+Total nilai A+B 100 %
