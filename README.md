@@ -37,10 +37,10 @@ f'(v) = 2c₁ + 6c₂v⁻⁴
 v_optimal = (c₂/c₁)^(1/4)
 ```
 
-## Struktur File
+## Struktur File (Dalam Github Repo)
 
 ```
-├── main.cpp              # Program utama implementasi Newton-Raphson
+├── Drone.cpp              # Program utama implementasi Newton-Raphson
 ├── data.cpp              # Generator data sintetis
 ├── synthetic_data.txt    # File data input (dihasilkan oleh data.cpp)
 ├── README.md            # Dokumentasi proyek
